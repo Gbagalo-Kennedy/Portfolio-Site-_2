@@ -1,0 +1,171 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #2c2b30; 
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #2c2b30; 
+}
+
+.nav-link,
+.navbar-brand {
+    color: #d6d6d6; 
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #f58f7C; 
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+.header {
+    background-image: url('images/240_F_339002325_ZgEW09DzhAAd3dmEPpv3mnPlzlCEn56C.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Overlay */
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(44, 43, 48, 0.6); 
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h1 {
+    color: #f58f7C; 
+}
+
+.description p {
+    color: #d6d6d6; 
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+/* Button */
+.description button {
+    border: 1px solid #f2c4ce; 
+    background: #f2c4ce; 
+    border-radius: 0;
+    color: #2c2b30; 
+}
+
+.description button:hover {
+    border: 1px solid #f58f7C; 
+    background: #f58f7C;
+    color: #fff;
+}
+
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+}
+
+.feature-title {
+    color: #f58f7C;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.features .btn {
+    background-color: #f58f7C;
+    border: none;
+    color: #fff;
+}
+
+.features .btn:hover {
+    background-color: #333;
+}
+
+.background {
+    background: #dedec8;
+    padding: 4em 0;
+}
+
+.team {
+    color: #5e5e55;
+}
+
+.team .card {
+    background: none;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.team .card-title {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+/* ===== Footer ===== */
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 20px 0;
+}
+
+
+#demo-modal .btn {
+    background-color: #f58f7C;
+    color: #fff;
+    border: none;
+}
+
+
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        top: 20%;
+        transform: none;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 2em;
+    }
+
+    .features {
+        margin: 0;
+    }
+}
+
